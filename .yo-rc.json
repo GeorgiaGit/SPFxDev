@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "cswp-apollo-viewer-react",
+    "libraryId": "862a43dd-f5d7-4e1b-9dff-fd47cc65ea07",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cswp-apollo-viewer-react",
+    "solutionShortDescription": "cswp-apollo-viewer-react description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
