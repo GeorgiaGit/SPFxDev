@@ -5,5 +5,5 @@ import {
 
 export interface IApolloMissionProps {
   mission?: IMission;
-  onRemoveMission: MissionOperationCallback;
+  onRemoveMission?: MissionOperationCallback;
 }

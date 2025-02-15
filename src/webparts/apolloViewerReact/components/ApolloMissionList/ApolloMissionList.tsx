@@ -62,9 +62,12 @@ const ApolloMissionList: React.FC<IApolloMissionListProps> = (props) => {
 
   const onRenderCell = (mission: IMission, index: number | undefined): JSX.Element => {
     return (
-      <ApolloMission key={getMissionUniqueId(mission)}
-        mission={mission}
-        onDeleteMission={props.onDeleteMission} />
+      <div key={getMissionUniqueId(mission)}>
+        <ApolloMission
+          mission={mission}
+          onDeleteMission={props.onDeleteMission}
+        />
+      </div>
     );
   };
 

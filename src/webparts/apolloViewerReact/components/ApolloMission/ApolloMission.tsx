@@ -21,7 +21,6 @@ const ApolloMission: React.FC<IApolloMissionProps> = (props: IApolloMissionProps
     }
   };
 
-
   return (
     <div className={styles.apolloMission}>
       <table>

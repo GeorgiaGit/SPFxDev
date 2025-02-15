@@ -9,7 +9,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import * as strings from 'ApolloViewerReactWebPartStrings';
-import { ApolloViewerReact } from './components';
+import { ApolloViewerReact } from './components/ApolloViewerReact';
 
 export interface IApolloViewerReactWebPartProps {
   description: string;
